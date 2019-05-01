@@ -10,7 +10,7 @@ var Prolog = internal.Register(MustNewLexer(
 	&Config{
 		Name:      "Prolog",
 		Aliases:   []string{"prolog"},
-		Filenames: []string{"*.ecl", "*.prolog", "*.pro", "*.pl"},
+		Filenames: []string{"*.ecl", "*.prolog", "*.pro"},
 		MimeTypes: []string{"text/x-prolog"},
 	},
 	Rules{
